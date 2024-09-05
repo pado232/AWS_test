@@ -1,0 +1,58 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center; /* 최상단에 정렬 */
+  z-index: 10000;
+}
+
+.modal_main {
+  background-color: rgb(248, 241, 220);
+  padding: 2rem 2rem;
+  margin: 0 3rem;
+  border-radius: 4px;
+  max-width: 1100px;
+  max-height: 85vh; /* 모달의 최대 높이 설정 */
+  overflow-y: auto; /* 높이가 넘치면 스크롤바 표시 */
+  z-index: 10001;
+}
+/* 스크롤바 스타일링 */
+.modal_main::-webkit-scrollbar {
+  width: 0.7rem; /* 스크롤바 너비 */
+}
+
+.modal_main::-webkit-scrollbar-track {
+  border-radius: 0.625rem; /* 스크롤바 트랙 둥근 모서리 */
+}
+
+.modal_main::-webkit-scrollbar-thumb {
+  background: #e6b856; /* 스크롤바 색상 */
+  border-radius: 0.625rem; /* 스크롤바 둥근 모서리 */
+}
+
+.modal_main::-webkit-scrollbar-thumb:hover {
+  background: #e28940; /* 스크롤바 색상 (호버 시) */
+}
+
+.display_block {
+  display: flex;
+}
+
+.display_none {
+  display: none;
+}
+.close_box {
+  text-align: end;
+}
+.close {
+  cursor: pointer;
+}
+.close:hover {
+  background-color: #0000003b;
+  border-radius: 0.2rem;
+}

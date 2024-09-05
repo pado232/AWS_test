@@ -1,0 +1,121 @@
+.SendEmail {
+}
+/* 이메일 복사 부분*/
+.SendEmail .top {
+  margin: 2rem;
+}
+.copy_check_box > div {
+  margin: auto;
+}
+.SendEmail .top .copy_check {
+  color: #bbb;
+  background-color: #201e1e;
+  border-radius: 5rem;
+  padding: 0.5rem 0.25rem;
+  text-align: center;
+  box-shadow: 0 0 5px #0000005e;
+  width: 6rem;
+}
+.SendEmail .email_container {
+  color: #bbb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SendEmail .email_container button.copy {
+  font-size: 1rem;
+  margin: 1rem;
+  background: none;
+  padding: 0.7rem 1.2rem;
+  color: #bbb;
+  border: 1px solid #646464;
+  cursor: pointer;
+}
+.SendEmail .email_container button.copy:hover {
+  color: #d16565;
+  border: 1px solid #ac4a4a;
+}
+.SendEmail .email_container .icon_email {
+  margin: 0.5rem;
+}
+
+/* 입력 폼 부분*/
+.SendEmail .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.SendEmail .bottom .container_left h3 {
+  writing-mode: vertical-rl;
+  margin: 1rem 0;
+  font-size: 4rem;
+  color: rgb(154, 194, 255);
+  text-shadow: -1px 1px #161616, 1px -1px #161616, 1px 1px #161616,
+    -1px -1px #161616;
+}
+.SendEmail .bottom .container_right {
+  width: 100%;
+  background-color: #20212e;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.SendEmail .box {
+  margin: 1rem 0;
+}
+.SendEmail .lab {
+  color: #bbb;
+  font-size: 1rem;
+  padding: 0 0.3rem;
+}
+.SendEmail .lab span {
+  color: rgb(194, 67, 67);
+}
+.SendEmail .inp {
+  width: 100%;
+  margin-top: 0.4rem;
+  padding: 0.5rem;
+
+  background-color: #c7cdd1;
+  border: 1px solid #3a3a3a;
+  border-radius: 0.15rem;
+  font-size: 1rem;
+}
+.SendEmail .txt_a {
+  min-width: 100%;
+  max-width: 100%;
+  margin-top: 0.3rem;
+  min-height: 20rem;
+  padding: 0.5rem;
+
+  background-color: #c7cdd1;
+  border: 1px solid #3a3a3a;
+  border-radius: 0.15rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.SendEmail button.submit {
+  width: 100%;
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: #b86800;
+  border: none;
+  border-radius: 0.15rem;
+  color: white;
+  cursor: pointer;
+}
+.SendEmail .error {
+  color: rgb(245, 130, 130);
+  font-size: 0.75rem;
+  margin: 0.3rem;
+}
+.SendEmail input,
+.SendEmail textarea,
+.SendEmail input:focus,
+.SendEmail textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
+.SendEmail input:focus,
+.SendEmail textarea:focus {
+  border: 1px solid #fffb00;
+}

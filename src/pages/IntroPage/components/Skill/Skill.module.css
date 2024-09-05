@@ -1,0 +1,20 @@
+.Skill {
+}
+.title_h3 {
+  color: #e65aa0;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+.name_h3 {
+  color: #6c80a8;
+  font-weight: lighter;
+  font-size: 1.3rem;
+  padding: 0.8rem;
+  border-bottom: 2px solid #a5a5a5;
+}
+.Skill .p {
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: 0.5px;
+  word-spacing: 0.5px;
+  padding: 0.5rem 1rem;
+}

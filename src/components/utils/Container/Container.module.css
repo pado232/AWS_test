@@ -1,0 +1,31 @@
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Container {
+  margin: auto;
+  max-width: 1200px;
+  min-height: 84vh;
+  /* 화면을 꽉 채운 높이 설정 */
+  display: flex;
+  flex-direction: column; /* 필요에 따라 추가 */
+  justify-content: center; /* 필요에 따라 추가 */
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
